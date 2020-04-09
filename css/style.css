@@ -109,6 +109,20 @@ body {
     background-color: lavender;
 }
 
+.portfolio img {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    transition: ease-in-out;
+    -webkit-transition: all .8s;
+}
+
+.portfolio img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transform: none;
+    -webkit-transform: scale(1.01);
+}
+
 .portfolio p {
     font-family: "Dancing Script";
     color: darkslategray;
