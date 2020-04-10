@@ -1,6 +1,6 @@
 # Delani Studio
 #### We are a group of highly competent web developers, marketers and copywriters whose main drive is ensuring that our products and services are top notch with a guaranteed return on investment.
-Current version date 2020
+Current version dated 2020
 #### By **Rose Kairu**
 ## Description
 Our approach unifies design, development and product management to create exceptional products.
@@ -18,5 +18,5 @@ Delani Studio website was developed using HTML5, CSS, Bootstrap CSS, Javascript 
 ## Support and contact details
 Incase of any issues arising from using Delani Studio website kindly reach out to me via email at rosekairu@gmail.com
 
-### [MIT License]LICENSE
+### [MIT License](https://github.com/rosekairu/Delani-Studio/blob/master/LICENSE)
 Copyright (c) 2020 **Rose Kairu**
