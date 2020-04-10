@@ -45,7 +45,7 @@ body {
 }
 
 .services h1 {
-    font-family: "Courgette";
+    font-family: "Josefin";
 }
 
 #about,
@@ -180,7 +180,7 @@ button {
 }
 
 button:hover {
-    background-color: darkolivegreen;
+    background-color: deepskyblue;
 }
 
 .social-media {
@@ -188,7 +188,7 @@ button:hover {
     margin-top: -10.5%;
     background-color: lavenderblush;
     text-align: center;
-    font-family: "Satisfy";
+    font-family: "Josefin";
     font-size: 2vw;
     color: black;
 }
