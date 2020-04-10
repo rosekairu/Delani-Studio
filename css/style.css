@@ -109,20 +109,18 @@ body {
     background-color: lavender;
 }
 
-#overlay {
+#overImgLay {
     float: right;
     position: relative;
 }
 
-.overlaytext {
-    display: none;
+.overLayText {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.6);
     width: 88%;
     position: absolute;
     bottom: 0;
     font-size: 30px;
-    padding: 20px;
     height: 100%;
     color: tomato;
     text-align: center;
