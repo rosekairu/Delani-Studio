@@ -10,10 +10,8 @@ $(".clickable3").click(function () {
     $(".management-hidden").slideToggle();
     $(".management-showing").slideToggle();
 });
-$('.imgoverlay').hover(function () {
-    $('.overlaytext', this).slideToggle('slow');
-}, function () {
-    $('.overlaytext', this).slideToggle('slow');
+$('.imgOverLay').hover(function () {
+    $('.overLayText', this).slideToggle('slow');
 });
 
 $(document).ready(function () {
@@ -30,7 +28,7 @@ $(document).ready(function () {
             alert("Please enter your email address")
             return false;
         } else if (message == "") {
-            alert("Please give feedback")
+            alert("Please give us feedback")
             return false;
         } else {
             alert("Dear " + name + ", we have received your message. Thank you for reaching out to us.");
