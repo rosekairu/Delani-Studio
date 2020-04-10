@@ -15,13 +15,31 @@ $('.imgoverlay').hover(function () {
 }, function () {
     $('.overlaytext', this).slideToggle('slow');
 });
-$("button").click(function (event) {
-    event.preventDefault();
-    let user = document.getElementById('username').value;
-    alert("Dear " + user + ", we have received your message. Thank you for reaching out to us.");
-});
-$("button").on('click', function () {
-    $('form').each(function () {
-        this.reset();
+
+$(document).ready(function () {
+    $("#submit-button").click(function (event) {
+        //event.preventDefault();
+        var name = document.getElementById("username").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+        // form validation
+        if (name == "") {
+            alert("Please enter your name");
+            return false;
+        } else if (email == "") {
+            alert("Please enter your email address")
+            return false;
+        } else if (message == "") {
+            alert("Please give feedback")
+            return false;
+        } else {
+            alert("Dear " + name + ", we have received your message. Thank you for reaching out to us.");
+        }
+        $("button").on('click', function () {
+            $('form').each(function () {
+                this.reset();
+            });
+        });
+
     });
 });
