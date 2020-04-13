@@ -14,6 +14,8 @@ $('.imgOverLay').hover(function () {
     $('.overLayText', this).slideToggle('slow');
 });
 
+const key = '192c3bb803ef5e0c9189b6f9699b5f8a-us19';
+
 $(document).ready(function () {
     $("#submit-button").click(function (event) {
         //event.preventDefault();
